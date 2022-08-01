@@ -1,0 +1,45 @@
+import { StyleSheet, Dimensions } from 'react-native';
+
+const styles = StyleSheet.create({
+    carContainer : {
+        width : '100%',
+        height : Dimensions.get('window').height,
+        scrollTop : Dimensions.get('window').scrollTop
+          },
+        
+          title : {
+        fontSize : 40,
+        fontWeight : '500',
+          },
+
+          titles:{
+        marginTop : '30%',
+        width : '100%',
+        alignItems: 'center',
+          },
+
+          subtitle : {
+        fontSize : 16,
+        color : '#5c5e62',
+        },
+
+        image:{
+          // position : 'relative',
+          width : '100%',
+          height : '100%',
+          resizeMode : 'cover',
+          position : 'absolute',
+        }
+        ,
+        buttonContainer : {
+            position : 'absolute',
+            bottom : 50,
+            width : '100%'
+        },
+        subtitleCTA : {
+fontWeight : 'bold'
+        }
+
+}) 
+
+export default styles
