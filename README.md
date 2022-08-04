@@ -1,4 +1,4 @@
-<h1> Tesla App Mobile  </h1> 
+<h1> Tesla Mobile App  </h1> 
 
 <h3> React Native  </h3> 
 
